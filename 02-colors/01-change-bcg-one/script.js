@@ -12,5 +12,19 @@
 (function() {
 
     // your code here
+    //ON CLICK change background color of page to color indicated
+    // on click means addeventlistener, access background color with document.element.style.backgroundcolor =
+    document.getElementById("red").addEventListener("click", function() {
+       document.body.style.backgroundColor = "red"; 
+    })
+    document.getElementById("green").addEventListener("click", function() {
+        document.body.style.backgroundColor = "green"; 
+     })
+     document.getElementById("yellow").addEventListener("click", function() {
+        document.body.style.backgroundColor = "yellow"; 
+     })
+     document.getElementById("blue").addEventListener("click", function() {
+        document.body.style.backgroundColor = "blue"; 
+     })
 
 })();

@@ -9,8 +9,13 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+(function () {
 
     // your code here
+    // on click of button => addEventListener("click") run the script button, get id.
+    // 
 
+    document.getElementById("run").addEventListener("click", function () {
+    document.body.style.backgroundColor = document.getElementById("color").value; //color.value also works
+    });
 })();

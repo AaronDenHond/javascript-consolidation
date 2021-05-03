@@ -2,6 +2,7 @@
 Repo for redoing the Javascript introductory exercises.
 
 The goal is to redo the exercises with as little online assistance as possible for better understanding.
+CHAPTER 1 :
 
 exercise 1 : easy, no issues
 
@@ -17,7 +18,14 @@ exercise 4 : part 1 and 2 were solved easily, but rerunning the process was hard
 didnt remember while loop and couldnt break the rerunning loop, had to look up the answer sadly.
 
 
+CHAPTER 2 :
 
+exercise 1 : easy, no issues other than using document.style.backgroundColor instead of document.body.style.Backgroundcolor
+
+exercise 2 : went well, confused as to why color.value also worked, since i select a class then, not an id.
+
+exercise 3 : had to look up how to generate random hexadecimal color (knew it was with math.random but didnt know exact values)
+  
 
 
 
