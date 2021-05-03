@@ -25,7 +25,9 @@ exercise 1 : easy, no issues other than using document.style.backgroundColor ins
 exercise 2 : went well, confused as to why color.value also worked, since i select a class then, not an id.
 
 exercise 3 : had to look up how to generate random hexadecimal color (knew it was with math.random but didnt know exact values)
-  
+
+readme update 
+ 
 
 
 
