@@ -28,8 +28,34 @@ exercise 3 : had to look up how to generate random hexadecimal color (knew it wa
 
 readme update 
  
+CHAPTER 3 :
 
+exercise 1 : went well, learned and looked up the difference between .innerHTML and .value in the DOM
 
+exercise 2 : did it different this time, is this okay? Gotta check!
+EDIT : doesnt work since getMinutes returns a value between 0 and 59, not counting mins from start of day.
+let currentTime = new Date;
+    //17h 30 mins = 17 x 60 + 30 = 1050 minutes
+    function messageTest() { 
+        if (currentTime.getMinutes() < 1050) {
+            document.getElementById("target").innerHTML = "Hello";
+
+        }
+        
+        else {
+
+            document.getElementById("target").innerHTML = "Good evening";
+        }
+
+    }
+
+   messageTest();
+
+})();
+
+exercise 3 : hard one, had to look up new Date () and possible parameters. 
+Struggled cause I'd declared and assigned values to the variables outside of the function scope.
+Took a long time, but did around 70 % without looking up.
 
 
 
