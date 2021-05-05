@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+(function () {
 
     var fruits = [
         "pomme",
@@ -27,5 +27,19 @@
     ];
 
     // your code here
+    document.getElementById("run").addEventListener("click", () => fruits.forEach(element => console.log(element))); // 1 line so no curlies needed
+
+    document.getElementById("run").addEventListener("click", () => {
+     fruits.forEach(element => {
+         console.log(element);
+     })                                                                      // 2 ways to write
+    });
+        
+          
+
+    
+
+
+
 
 })();

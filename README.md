@@ -66,9 +66,31 @@ exercise 2 :
 function scope var
 block scope let
 why cant I put let before function here? no closing curly bracket
+  gaat value lezen als pagina inlaadt, dus empty string, we willen dat value gelezen wordt on click, dus in performOperation
+
 
 exercise 3 :
 
 went well, but tried to do it with array at first and put the num[i] index as a value for conditionals,
 only worked with i and without array, why?
-   
+ 
+CHAPTER 5 :
+
+exercise 1 : no problems
+
+exercise 2 : had to look up documentation for unshift and pop, tried out swapping to arrow function
+for eventlistener, gonna try to do this more and more.
+
+exercise 3 (walk 1): went well, didnt have to look up
+
+exercise 4 (walk 2): went really well, really happy I didnt have to look up the forEach() documentation.
+With the help of Tom managed to turn it into 1 line even, which looks way better and is more compact.
+Trying to really get the hang of arrow functions, but while still understanding it and being able to write it
+both ways if necessary (standard and arrow). 
+ 
+exercise 5 (walk 3): went really welL, didnt have to look up!
+ used person instead of element since its a parameter and we can choose
+and person seems more natural.   console.log(person.firstname + " " + person.lastname); to get the full name
+
+
+ 

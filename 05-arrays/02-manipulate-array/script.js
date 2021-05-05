@@ -25,17 +25,20 @@
     ];
 
     // your code here
-    document.getElementById('run').addEventListener('click', myFunction);
+   
+    /* document.getElementById("run").addEventListener("click", function () {
 
+    });   */ 
+    
+    
+   document.getElementById("run").addEventListener("click", () => {   //brackets in arrowfunction needed if more than 1 line
+   
+     fruits.shift();
+     fruits.pop();
+     fruits.unshift("banana");
+     fruits.push("kiwi");
+     console.log(fruits);
 
-    function myFunction() {
-        console.log(fruits);
-        fruits.pop;
-        fruits.shift;
-        fruits.unshift("Banana");
-        fruits.push("Kiwi");
-        console.log(fruits);
-       
-    };
-  
+    });
+
 })();

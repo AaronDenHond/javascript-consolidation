@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+(function () {
 
     var fruits = [
         "apple",
@@ -23,9 +23,18 @@
         "durian",
         "peache",
         "grap",
-        "cherry",
+        "cherry",   
     ];
 
     // your code here
+    document.getElementById("run").addEventListener("click", () => {
+
+        for (let index = 0; index < fruits.length - 1; index++) { // -1 to show it without last index value, just a test
+            
+            console.log(fruits[index]);
+            
+        }
+
+    });
 
 })();
