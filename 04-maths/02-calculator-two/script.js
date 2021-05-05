@@ -9,16 +9,42 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+(function () {
     // to get the value of an input: document.getElementById("element-id").value
 
-    var performOperation = function(operation) {
+    var performOperation = function (operator) {
         // perform the operation
-    };
+    
 
-    Array.from(document.querySelectorAll("button.operator")).forEach(function($btn) {
-        $btn.addEventListener("click", function() {
-            performOperation($btn.id);
+    
+        let num1 = document.getElementById("op-one").value;
+        let num2 = document.getElementById("op-two").value; // why cant these 2 lets be outside of performOperation?
+
+        switch (operator) {
+
+            case "addition":
+
+                alert(+num1 + + num2);
+                break;
+            case "substraction":
+                alert(num1 - num2);
+                break;
+
+            case "multiplication":
+                alert(num1 * num2);
+                break;
+
+            case "division":
+                alert(num1 / num2);
+                break;
+
+        }
+    };
+        Array.from(document.querySelectorAll("button.operator")).forEach(function ($btn) {
+            $btn.addEventListener("click", function () {
+                performOperation($btn.id);
+
+
+            });
         });
-    });
-})();
+    }) ();

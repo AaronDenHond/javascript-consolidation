@@ -57,6 +57,18 @@ exercise 3 : hard one, had to look up new Date () and possible parameters.
 Struggled cause I'd declared and assigned values to the variables outside of the function scope.
 Took a long time, but did around 70 % without looking up.
 
+CHAPTER 4 
 
+exercise 1 : went well
 
+exercise 2 : 
+
+function scope var
+block scope let
+why cant I put let before function here? no closing curly bracket
+
+exercise 3 :
+
+went well, but tried to do it with array at first and put the num[i] index as a value for conditionals,
+only worked with i and without array, why?
    
