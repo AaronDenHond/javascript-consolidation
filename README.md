@@ -92,5 +92,10 @@ exercise 5 (walk 3): went really welL, didnt have to look up!
  used person instead of element since its a parameter and we can choose
 and person seems more natural.   console.log(person.firstname + " " + person.lastname); to get the full name
 
+exercise 6 : went badly, didnt see the logic of forEach at first and dont know how to log index of found person,
+even knowing i need to use array.indexOf()
 
+exercise 7 : went well, but had to look up the documentation for the .filter() method.
+
+exercise 8 : went well, but had to look up the documentation for the .includes() method.
  
